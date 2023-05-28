@@ -47,6 +47,6 @@ node match-sentence.js
 
 ## Nota bene
 - word list taken from https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt
-- you can generate roughly 5000 links before Google blocks you for a while (dynamic part of the link is `null` then instead of `xxx-yyyy-zzz`) - the script will stop automatically when 5 consecutive tries for getting a link failed - generating works again after a day or so
+- you can generate roughly 5000 links before Google blocks you for a while (dynamic part of the link is `null` then instead of `xxx-yyyy-zzz`) - the script will stop automatically when 5 consecutive tries for getting a link failed - generating works again after a day or when you log out of GMail, log in again and update `link.sh` with a fresh `curl`
 - when you generate your first link, a `links` file will be created - subsequent runs will append to this file
 - only letter that you can not have in a link is `l` (probably because it's unambiguous with `1` or `I` or so)
