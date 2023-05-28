@@ -7,8 +7,8 @@ Generating google meet links and trying to find words in them (+ stats & word se
 1. Copy `link.sh.example` to `link.sh`
 2. Go to Chrome and log into Gmail
 3. Click the `Meet` link in the left menu
-4. Click `New meeting` (you should see a meeting link)
-5. Copy the link and paste it in a new browser window
+4. Click `New meeting` (you should see a meeting link - just ignore it)
+5. Copy the link in the URL bar and paste it in a new browser window
 6. Open the Developer Tools (F12) and go to the `Network` tab and click 'All' on top (next to the search input)
 7. Reload the page if it's empty
 8. Right-click on the `GET` request that is named `/getalink` (should be the first one in the list) and `Copy` -> `Copy as CURL`
