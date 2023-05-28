@@ -30,14 +30,19 @@ node stats.js
 node stats.js word
 ```
 
-### match against word list (default min length)
+### match against word list [default min length]
 ```bash
 node match-words.js
 ```
 
-### match against word list (custom min length)
+### match against word list [custom min length]
 ```bash
 node match-words.js 3
+```
+
+### match against word list for links that have at least one word in each block (e.g. "red-good-jam")
+```bash
+node match-sentence.js
 ```
 
 ## Nota bene
